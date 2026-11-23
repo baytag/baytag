@@ -46,6 +46,23 @@
           "url": "https://wa.me/996700186832"
         }
       ]
+    },
+    {
+      "id": "test",
+      "name": "Тестовый сотрудник",
+      "name_en": "",
+      "role": "Его должность",
+      "role_en": "",
+      "bio": "Биография",
+      "bio_en": "",
+      "photo": "/photos/test.webp",
+      "links": [
+        {
+          "label": "Тестовая кнопка",
+          "label_en": "",
+          "url": "google.com"
+        }
+      ]
     }
   ]
 }
