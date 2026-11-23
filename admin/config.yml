@@ -43,7 +43,6 @@ collections:
               - label: Кнопки
                 name: links
                 widget: list
-                max: 5
                 summary: "{{fields.label}}"
                 fields:
                   - {label: "Название кнопки (русский)", name: label, widget: string}
