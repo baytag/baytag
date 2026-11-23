@@ -1,0 +1,51 @@
+{
+  "employees": [
+    {
+      "id": "dzhuraeva",
+      "name": "Лира Джураева",
+      "name_en": "Lira Dzhuraeva",
+      "role": "Директор",
+      "role_en": "National Director",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана», ул. Исанова, 94-3, 720001 Бишкек, Кыргызстан",
+      "bio_en": "SOS Children's Villages Kyrgyzstan PF, 94-3, Isanov str., 720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Lira.Dzhuraeva@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Позвонить (офис 1)",
+          "label_en": "Call (Office 1)",
+          "url": "tel:+996312611546"
+        },
+        {
+          "label": "Позвонить (офис 2)",
+          "label_en": "Call (Office 2)",
+          "url": "tel:+996312615095"
+        },
+        {
+          "label": "Позвонить (моб. 1)",
+          "label_en": "Call (Mobile 1)",
+          "url": "tel:+996700186832"
+        },
+        {
+          "label": "Позвонить (моб. 2)",
+          "label_en": "Call (Mobile 2)",
+          "url": "tel:+996772186832"
+        },
+        {
+          "label": "Позвонить (моб. 3)",
+          "label_en": "Call (Mobile 3)",
+          "url": "tel:+996555186832"
+        },
+        {
+          "label": "WhatsApp",
+          "label_en": "WhatsApp",
+          "url": "https://wa.me/996700186832"
+        }
+      ]
+    }
+  ]
+}

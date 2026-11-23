@@ -1,0 +1,51 @@
+backend:
+  name: github
+  repo: korden08/testsite1
+  branch: main
+
+media_folder: photos
+public_folder: photos
+locale: ru
+
+# Сжатие при загрузке: любое новое фото станет WebP до 1000x1250 (около 50-200 КБ)
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 80
+          width: 1000
+          height: 1250
+
+collections:
+  - name: staff
+    label: Сотрудники
+    files:
+      - name: employees
+        label: Список сотрудников
+        file: employees.json
+        fields:
+          - label: Сотрудники
+            name: employees
+            widget: list
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - {label: "Ссылка (латиницей, без пробелов)", name: id, widget: string, hint: "Например ivanov. Ссылка будет: сайт/#ivanov"}
+              - {label: "ФИО (русский)", name: name, widget: string}
+              - {label: "ФИО (English)", name: name_en, widget: string, required: false}
+              - {label: "Должность (русский)", name: role, widget: string}
+              - {label: "Должность (English)", name: role_en, widget: string, required: false}
+              - {label: "Биография (русский)", name: bio, widget: text}
+              - {label: "Биография (English)", name: bio_en, widget: text, required: false}
+              - {label: Фото, name: photo, widget: image, required: false, hint: "Лучше вертикальное фото 4:5. Сожмётся автоматически."}
+              - label: Кнопки
+                name: links
+                widget: list
+                max: 5
+                summary: "{{fields.label}}"
+                fields:
+                  - {label: "Название кнопки (русский)", name: label, widget: string}
+                  - {label: "Название кнопки (English)", name: label_en, widget: string, required: false}
+                  - {label: Ссылка, name: url, widget: string, hint: "https://..., tel:+996..., mailto:..."}
