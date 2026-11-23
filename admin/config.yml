@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: korden08/testsite1
+  repo: baytag/baytag
   branch: main
 
 media_folder: photos
