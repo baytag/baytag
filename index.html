@@ -33,9 +33,19 @@ main{width:100%;max-width:420px}
 .links{display:grid;gap:10px;margin-top:8px}
 .links a{display:block;padding:14px 18px;border-radius:16px;border:1.5px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600;text-align:center}
 .links a small{display:block;margin-top:2px;font-weight:400;font-size:13px;opacity:.75}
-.links a:first-child{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.links a:hover{border-color:var(--accent)}
-.links a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.links a:hover,.links button:hover{border-color:var(--accent)}
+.links a:focus-visible,.links button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.links .primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.links button{display:block;width:100%;padding:14px 18px;border-radius:16px;border:1.5px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-weight:600;text-align:center;cursor:pointer}
+.links button small{display:block;margin-top:2px;font-weight:400;font-size:13px;opacity:.75}
+.links button .chev{display:inline-block;margin-left:8px;transition:transform .2s}
+.links button[aria-expanded=true] .chev{transform:rotate(180deg)}
+.phones{display:grid;gap:8px;margin-top:10px}
+.phones[hidden]{display:none}
+.phones a{display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;padding:12px 16px;border-radius:14px;background:var(--bg);border:1.5px solid transparent}
+.phones a span{color:var(--muted);font-weight:600;font-size:14px}
+.phones a span em{display:block;font-style:normal;font-weight:400;font-size:12px}
+.phones a b{font-weight:800;white-space:nowrap}
 
 /* list */
 .top{margin:8px 4px 20px}
@@ -92,10 +102,19 @@ main{width:100%;max-width:420px}
 
   function card(e){
     document.title=e.name+(e.name_en?' / '+e.name_en:'')+' — '+e.role;
-    var links=(e.links||[]).filter(function(l){return l.url&&l.label}).map(function(l){
-      return '<a href="'+esc(l.url)+'" target="_blank" rel="noopener">'+esc(l.label)+
-        (l.label_en?'<small lang="en">'+esc(l.label_en)+'</small>':'')+'</a>';
-    }).join('');
+    var items=[];
+    var phones=(e.phones||[]).filter(function(p){return p.number});
+    if(phones.length){
+      items.push('<div class="call"><button type="button" class="callbtn" aria-expanded="false" aria-controls="phones">Позвонить<span class="chev" aria-hidden="true">▾</span><small lang="en">Call</small></button>'+
+        '<div class="phones" id="phones" hidden>'+phones.map(function(p){
+          var tel=String(p.number).replace(/[^\d+]/g,'');
+          return '<a href="tel:'+esc(tel)+'"><span>'+esc(p.label||'')+(p.label_en?'<em lang="en">'+esc(p.label_en)+'</em>':'')+'</span><b>'+esc(p.number)+'</b></a>';
+        }).join('')+'</div></div>');
+    }
+    (e.links||[]).filter(function(l){return l.url&&l.label}).forEach(function(l){
+      items.push('<a href="'+esc(l.url)+'" target="_blank" rel="noopener">'+esc(l.label)+(l.label_en?'<small lang="en">'+esc(l.label_en)+'</small>':'')+'</a>');
+    });
+    var links=items.join('');
 
     var pic=e.photo
       ? '<img src="'+src(e.photo)+'" alt="'+esc(e.name)+'" width="1000" height="1250" fetchpriority="high" decoding="async">'
@@ -114,6 +133,13 @@ main{width:100%;max-width:420px}
         (e.bio_en?'<p class="bio en" lang="en">'+esc(e.bio_en)+'</p>':'')+
         (links?'<nav class="links">'+links+'</nav>':'')+
       '</div></section>';
+    var first=app.querySelector('.links > :first-child');
+    if(first){(first.classList.contains('call')?first.querySelector('button'):first).classList.add('primary')}
+    var cb=app.querySelector('.callbtn');
+    if(cb){cb.addEventListener('click',function(){
+      var box=document.getElementById('phones'),open=cb.getAttribute('aria-expanded')==='true';
+      cb.setAttribute('aria-expanded',String(!open));box.hidden=open;
+    })}
     window.scrollTo(0,0);
   }
 
