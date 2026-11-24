@@ -40,6 +40,15 @@ collections:
               - {label: "Биография (русский)", name: bio, widget: text}
               - {label: "Биография (English)", name: bio_en, widget: text, required: false}
               - {label: Фото, name: photo, widget: image, required: false, hint: "Лучше вертикальное фото 4:5. Сожмётся автоматически."}
+              - label: Телефоны (одна кнопка «Позвонить» со списком номеров)
+                name: phones
+                widget: list
+                required: false
+                summary: "{{fields.label}} — {{fields.number}}"
+                fields:
+                  - {label: "Подпись (русский)", name: label, widget: string, hint: "Например: Офис, Мобильный"}
+                  - {label: "Подпись (English)", name: label_en, widget: string, required: false}
+                  - {label: Номер, name: number, widget: string, hint: "В любом виде, например +996 700 123 456"}
               - label: Кнопки
                 name: links
                 widget: list
@@ -47,4 +56,4 @@ collections:
                 fields:
                   - {label: "Название кнопки (русский)", name: label, widget: string}
                   - {label: "Название кнопки (English)", name: label_en, widget: string, required: false}
-                  - {label: Ссылка, name: url, widget: string, hint: "https://..., tel:+996..., mailto:..."}
+                  - {label: Ссылка, name: url, widget: string, required: false, hint: "https://..., mailto:... Если пусто, кнопка не показывается"}
