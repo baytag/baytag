@@ -50,17 +50,22 @@
         {
           "label": "Instagram",
           "label_en": "Instagram",
-          "url": ""
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
         },
         {
           "label": "Facebook",
           "label_en": "Facebook",
-          "url": ""
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
         },
         {
           "label": "LinkedIn",
           "label_en": "LinkedIn",
-          "url": ""
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
         }
       ]
     }
