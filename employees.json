@@ -5,62 +5,62 @@
       "name": "Лира Джураева",
       "name_en": "Lira Dzhuraeva",
       "role": "Директор",
-      "role_en": "National Director",
+      "role_en": "Director",
       "bio": "ОФ «SOS Детские Деревни Кыргызстана», ул. Исанова, 94-3, 720001 Бишкек, Кыргызстан",
       "bio_en": "SOS Children's Villages Kyrgyzstan PF, 94-3, Isanov str., 720001 Bishkek Kyrgyzstan",
       "photo": "",
+      "phones": [
+        {
+          "label": "Офис 1",
+          "label_en": "Office 1",
+          "number": "+996 312 611 546"
+        },
+        {
+          "label": "Офис 2",
+          "label_en": "Office 2",
+          "number": "+996 312 615 095"
+        },
+        {
+          "label": "Мобильный 1",
+          "label_en": "Mobile 1",
+          "number": "+996 700 186 832"
+        },
+        {
+          "label": "Мобильный 2",
+          "label_en": "Mobile 2",
+          "number": "+996 772 186 832"
+        },
+        {
+          "label": "Мобильный 3",
+          "label_en": "Mobile 3",
+          "number": "+996 555 186 832"
+        }
+      ],
       "links": [
+        {
+          "label": "WhatsApp",
+          "label_en": "WhatsApp",
+          "url": "https://wa.me/996700186832"
+        },
         {
           "label": "E-mail",
           "label_en": "E-mail",
           "url": "mailto:Lira.Dzhuraeva@soskyrgyzstan.kg"
         },
         {
-          "label": "Позвонить (офис 1)",
-          "label_en": "Call (Office 1)",
-          "url": "tel:+996312611546"
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": ""
         },
         {
-          "label": "Позвонить (офис 2)",
-          "label_en": "Call (Office 2)",
-          "url": "tel:+996312615095"
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": ""
         },
         {
-          "label": "Позвонить (моб. 1)",
-          "label_en": "Call (Mobile 1)",
-          "url": "tel:+996700186832"
-        },
-        {
-          "label": "Позвонить (моб. 2)",
-          "label_en": "Call (Mobile 2)",
-          "url": "tel:+996772186832"
-        },
-        {
-          "label": "Позвонить (моб. 3)",
-          "label_en": "Call (Mobile 3)",
-          "url": "tel:+996555186832"
-        },
-        {
-          "label": "WhatsApp",
-          "label_en": "WhatsApp",
-          "url": "https://wa.me/996700186832"
-        }
-      ]
-    },
-    {
-      "id": "test",
-      "name": "Тестовый сотрудник",
-      "name_en": "",
-      "role": "Его должность",
-      "role_en": "",
-      "bio": "Биография",
-      "bio_en": "",
-      "photo": "/photos/test.webp",
-      "links": [
-        {
-          "label": "Тестовая кнопка",
-          "label_en": "",
-          "url": "https://www.google.com/"
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": ""
         }
       ]
     }
