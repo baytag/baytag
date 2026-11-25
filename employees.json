@@ -5,9 +5,9 @@
       "name": "Лира Джураева",
       "name_en": "Lira Dzhuraeva",
       "role": "Директор",
-      "role_en": "Director",
-      "bio": "ОФ «SOS Детские Деревни Кыргызстана», ул. Исанова, 94-3, 720001 Бишкек, Кыргызстан",
-      "bio_en": "SOS Children's Villages Kyrgyzstan PF, 94-3, Isanov str., 720001 Bishkek Kyrgyzstan",
+      "role_en": "National Director",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.,\n720001 Bishkek Kyrgyzstan",
       "photo": "",
       "phones": [
         {
@@ -38,14 +38,734 @@
       ],
       "links": [
         {
-          "label": "WhatsApp",
-          "label_en": "WhatsApp",
-          "url": "https://wa.me/996700186832"
-        },
-        {
           "label": "E-mail",
           "label_en": "E-mail",
           "url": "mailto:Lira.Dzhuraeva@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "muratov",
+      "name": "Адилет Муратов",
+      "name_en": "Adilet Muratov",
+      "role": "Национальный директор по программному развитию",
+      "role_en": "National Programme Development Director",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.,\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис 1",
+          "label_en": "Office 1",
+          "number": "+996 312 611 546"
+        },
+        {
+          "label": "Офис 2",
+          "label_en": "Office 2",
+          "number": "+996 312 615 095"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 505 775 566"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Adilet.Muratov@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "degenbaeva",
+      "name": "Чинара Дегенбаева",
+      "name_en": "Chinara Degenbaeva",
+      "role": "Менеджер по работе с персоналом и советник по развитию персонала в области альтернативной опеки",
+      "role_en": "Human Resource Manager/HRD in Alternative Care",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.,\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 312 611 546"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 772 419 824"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Chinara.Degenbaeva@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "parpieva",
+      "name": "Дильноз Парпиева",
+      "name_en": "Dilnoz Parpieva",
+      "role": "Национальный советник по защите и продвижению прав детей",
+      "role_en": "National Advocacy Advisor",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.,\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 312 611 546"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 559 003 223"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Dilnoz.Parpieva@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "toktomamatova",
+      "name": "Гульдарика Токтомаматова",
+      "name_en": "Guldarika Toktomamatova",
+      "role": "Национальный советник по развитию институционального партнерства",
+      "role_en": "National Institutional Partnership Development Advisor",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 312 611 546"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 556 727 715"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Guldarika.Toktomamatova@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "imangazy",
+      "name": "Эркинбек Имангазы уулу",
+      "name_en": "Erkinbek Imangazy uulu",
+      "role": "Главный бухгалтер",
+      "role_en": "Chief Accountant",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 312 611 546"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 557 301 009"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Erkinbek.Imangazy@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "ishenbek",
+      "name": "Миргуль Ишенбек кызы",
+      "name_en": "Mirgul Ishenbek kyzy",
+      "role": "Национальный координатор по работе с зарубежными спонсорами",
+      "role_en": "National SPO Coordinator",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 312 611 546"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 501 881 316"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Mirgul.Ishenbek@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "ivanov",
+      "name": "Захар Иванов",
+      "name_en": "Zahar Ivanov",
+      "role": "Менеджер ИКТ",
+      "role_en": "ICT Manager",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 557 944 438"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Zahar.Ivanov@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "zhumaly",
+      "name": "Алмаз Жумалы уулу",
+      "name_en": "Almaz Zhumaly uulu",
+      "role": "Советник по защите детей",
+      "role_en": "Child Safeguarding Advisor",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.,\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 703 023 023"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Almaz.Jumalyuulu@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "batyrbekova",
+      "name": "Нуриза Батырбекова",
+      "name_en": "Nuriza Batyrbekova",
+      "role": "Программный советник",
+      "role_en": "Programme Advisor",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.,\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 707 179 710"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Nuriza.Batyrbekova@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "ismanaliev",
+      "name": "Эрмек Исманалиев",
+      "name_en": "Ermek Ismanaliev",
+      "role": "Координатор Молодежной Программы г. Бишкек",
+      "role_en": "Youth Programme Coordinator Bishkek",
+      "bio": "Филиал «SOS-Детская деревня г. Бишкек»\nул. Токтоналиева 137\n720044 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Village Bishkek\n137, Toktonaliev str., 720044 Bishkek, Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Мобильный 1",
+          "label_en": "Mobile 1",
+          "number": "+996 701 320 999"
+        },
+        {
+          "label": "Мобильный 2",
+          "label_en": "Mobile 2",
+          "number": "+996 997 320 999"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Ermek.Ismanaliev@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "bogachiev",
+      "name": "Нурбек Богачиев",
+      "name_en": "Nurbek Bogachiev",
+      "role": "Директор программы SOS Детской Деревни Чолпон-Ата",
+      "role_en": "Programme Director SOS Children’s Village Cholpon-ata",
+      "bio": "Филиал «SOS Детская Деревня г. Чолпон-Ата» ул. А.Осмонова 2\n722125 Чолпон-Ата Кыргызстан",
+      "bio_en": "SOS Children’s Village Cholpon-ata\n3 microdistrict,\n2, Osmonov str.,\n722125 Cholpon-Ata, Issyk-Kul region, Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 3943 5-20-66"
+        },
+        {
+          "label": "Мобильный 1",
+          "label_en": "Mobile 1",
+          "number": "+996 559 905 409"
+        },
+        {
+          "label": "Мобильный 2",
+          "label_en": "Mobile 2",
+          "number": "+996 701 190 191"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Nurbek.Bogachiev@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "sydybaeva",
+      "name": "Асель Сыдыбаева",
+      "name_en": "Asel Sydybaeva",
+      "role": "Заместитель Директора Альтернативной формы опеки SOS Детской Деревни Чолпон-Ата",
+      "role_en": "Deputy Programme Director SOS Children’s Village Cholpon-ata",
+      "bio": "Филиал «SOS Детская Деревня г. Чолпон-Ата» ул. А.Осмонова 2\n722125 Чолпон-Ата Кыргызстан",
+      "bio_en": "SOS Children’s Village Cholpon-ata\n3 microdistrict,\n2, Osmonov str.,\n722125 Cholpon-Ata, Issyk-Kul region, Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 3943 5-26-30"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 505 828 258"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Asel.Sydybaeva@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "nogoibaev",
+      "name": "Азамат Ногойбаев",
+      "name_en": "Azamat Nogoibaev",
+      "role": "Координатор Молодежной Программы г. Чолпон-Ата",
+      "role_en": "Youth Programme Coordinator Cholpon-Ata",
+      "bio": "Филиал «SOS Детская Деревня г. Чолпон-Ата» ул.А.Осмонова 2\n722125 Чолпон-Ата Кыргызстан",
+      "bio_en": "SOS Children’s Village Cholpon-ata\n3 microdistrict,\n2, Osmonov str.,\n722125 Cholpon-Ata, Issyk-Kul region, Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 555 727 124"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Azamat.Nogoibaev@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "cholponkulova",
+      "name": "Нурила Чолпонкулова",
+      "name_en": "Nurila Cholponkulova",
+      "role": "Координатор Программы Укрепления Семьи",
+      "role_en": "Family Strengthening Programme Coordinator",
+      "bio": "Филиал «SOS Детская Деревня г. Чолпон-Ата» ул.А.Осмонова 2\n722125 Чолпон-Ата Кыргызстан",
+      "bio_en": "SOS Children’s Village Cholpon-ata\n3 microdistrict,\n2, Osmonov str.,\n722125 Cholpon-Ata, Issyk-Kul region, Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 3943 5-20-86"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 703 330 982"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Nurila.Cholponkulova@soskyrgyzstan.kg"
+        },
+        {
+          "label": "Instagram",
+          "label_en": "Instagram",
+          "url": "https://www.instagram.com/soschildrenvillageskg/"
+        },
+        {
+          "label": "Facebook",
+          "label_en": "Facebook",
+          "url": "https://www.facebook.com/SOSChildrenVillagesKG"
+        },
+        {
+          "label": "LinkedIn",
+          "label_en": "LinkedIn",
+          "url": "https://www.linkedin.com/company/sos-children-s-villages-kyrgyzstan/"
+        },
+        {
+          "label": "YouTube",
+          "label_en": "YouTube",
+          "url": "https://www.youtube.com/@soschildrensvillageskyrgyz3218"
+        }
+      ]
+    },
+    {
+      "id": "smailova",
+      "name": "Айнура Смаилова",
+      "name_en": "Ainura Smailova",
+      "role": "Советник по Мониторингу и Оценке",
+      "role_en": "Monitoring and Evaluation Advisor",
+      "bio": "ОФ «SOS Детские Деревни Кыргызстана»\nул. Исанова, 94-3\n720001 Бишкек\nКыргызстан",
+      "bio_en": "SOS Children’s Villages Kyrgyzstan PF\n94-3, Isanov str.,\n720001 Bishkek Kyrgyzstan",
+      "photo": "",
+      "phones": [
+        {
+          "label": "Офис",
+          "label_en": "Office",
+          "number": "+996 312 611 546"
+        },
+        {
+          "label": "Мобильный",
+          "label_en": "Mobile",
+          "number": "+996 700 500 305"
+        }
+      ],
+      "links": [
+        {
+          "label": "E-mail",
+          "label_en": "E-mail",
+          "url": "mailto:Ainura.Smailova@soskyrgyzstan.kg"
         },
         {
           "label": "Instagram",
